@@ -30,7 +30,7 @@
 
 
   <title>
-第一篇博客 |
+该博客的诞生 |
 MagiRess Shoka = Hexo</title>
 <meta name="generator" content="Hexo 5.4.1"></head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -58,7 +58,7 @@ MagiRess Shoka = Hexo</title>
         <div id="brand">
           <div class="pjax">
           
-  <h1 itemprop="name headline">第一篇博客
+  <h1 itemprop="name headline">该博客的诞生
   </h1>
   
 <div class="meta">
@@ -100,12 +100,12 @@ MagiRess Shoka = Hexo</title>
       </div>
       <div id="imgs" class="pjax">
         <ul>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gicitht3xtj20zk0m8k5v.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipetfk5zwj20zk0m8e81.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giclj9410cj20zk0m8h12.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1giciukx8a7j20zk0m8aio.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gicm07ih54j20zk0m84qp.jpg"></li>
-          <li class="item" data-background-image="https://tva2.sinaimg.cn/large/6833939bly1gipewkhf1zj20zk0m81kx.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipet8c1a2j20zk0m8kct.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipeuibk9fj20zk0m8ay2.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giph4wqtg4j20zk0m8x6p.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipeu1usa7j20zk0m8b29.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclflwv2aj20zk0m84qp.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipewf5l51j20zk0m8b29.jpg"></li>
         </ul>
       </div>
     </header>
@@ -149,12 +149,33 @@ MagiRess Shoka = Hexo</title>
   <div class="body md" itemprop="articleBody">
     
 
-    
+    <h5 id="此过程为在电脑中安装完成nvm-npm-node-git以及hexo之后使用hexo向github中上传的过程"><a class="markdownIt-Anchor" href="#此过程为在电脑中安装完成nvm-npm-node-git以及hexo之后使用hexo向github中上传的过程">#</a> 此过程为在电脑中安装完成 nvm、npm、node、git 以及 hexo 之后，使用 hexo 向 GitHub 中上传的过程。</h5>
+<h3 id="1-建立github用户"><a class="markdownIt-Anchor" href="#1-建立github用户">#</a> 1、建立 Github 用户</h3>
+<h3 id="2-创建ssh密钥"><a class="markdownIt-Anchor" href="#2-创建ssh密钥">#</a> 2、创建 SSH 密钥：</h3>
+<h4 id="1-运行以下命令"><a class="markdownIt-Anchor" href="#1-运行以下命令">#</a> 1、运行以下命令：</h4>
+<h5 id="ssh-keygen-t-rsa-c-建立github账户的-邮箱-一直回车"><a class="markdownIt-Anchor" href="#ssh-keygen-t-rsa-c-建立github账户的-邮箱-一直回车">#</a> ssh-keygen -t rsa -C “建立 GitHub 账户的 邮箱” // 一直回车</h5>
+<h4 id="2-在相应的文件查找生成的密钥并全部复制"><a class="markdownIt-Anchor" href="#2-在相应的文件查找生成的密钥并全部复制">#</a> 2、在相应的文件查找生成的密钥，并全部复制</h4>
+<h5 id="一般为cuserssshid_rsapub"><a class="markdownIt-Anchor" href="#一般为cuserssshid_rsapub">#</a> // 一般为 C:\Users.ssh\id_rsa.pub</h5>
+<h4 id="3-在github个人页面点击头像选择setting中的ssh-and-gpg-keys然后点击-new-ssh-key并粘贴上一步的key"><a class="markdownIt-Anchor" href="#3-在github个人页面点击头像选择setting中的ssh-and-gpg-keys然后点击-new-ssh-key并粘贴上一步的key">#</a> 3、在 GitHub 个人页面点击头像，选择 setting 中的 SSH and 				GPG keys，然后点击 New SSH key，并粘贴上一步的				key</h4>
+<h4 id="4-验证是否建立连接"><a class="markdownIt-Anchor" href="#4-验证是否建立连接">#</a> 4、验证是否建立连接</h4>
+<h5 id="运行命令"><a class="markdownIt-Anchor" href="#运行命令">#</a> 运行命令：</h5>
+<h5 id="ssh-t-gitgithubcom"><a class="markdownIt-Anchor" href="#ssh-t-gitgithubcom">#</a> ssh -T <span class="exturl" data-url="bWFpbHRvOmdpdEBnaXRodWIuY29t">git@github.com</span></h5>
+<h3 id="3-建立pages-仓库仓库名为github用户名githubio"><a class="markdownIt-Anchor" href="#3-建立pages-仓库仓库名为github用户名githubio">#</a> 3、建立 Pages 仓库，<span class="exturl" data-url="aHR0cDovL3huLS1HaXRodWItdnk3aXg0YmM2MGFoYTkzNzBhMWVqYjY1ZC5naXRodWIuaW8=">仓库名为 Github 用户名.github.io</span></h3>
+<h3 id="4-本地在hexo中建立新的md文件并进行编辑运行hexo-g和hexo-s在本地访问相应端口成功显示网页后即可进行下一步"><a class="markdownIt-Anchor" href="#4-本地在hexo中建立新的md文件并进行编辑运行hexo-g和hexo-s在本地访问相应端口成功显示网页后即可进行下一步">#</a> 4、本地在 hexo 中建立新的 md 文件并进行编辑，运行 hexo g 和		hexo s 在本地访问相应端口成功显示网页后即可进行下一		步</h3>
+<h3 id="5-将hexo部署到github上运行hexo-d命令然后通过浏览器打开-httpsgithub用户名githubio即可成功"><a class="markdownIt-Anchor" href="#5-将hexo部署到github上运行hexo-d命令然后通过浏览器打开-httpsgithub用户名githubio即可成功">#</a> 5、将 hexo 部署到 Github 上，运行 hexo d 命令，然后通过浏览		器打开 “<span class="exturl" data-url="aHR0cHM6Ly94bi0tR2l0aHViLThoNmp3OTRnNHY5YS5naXRodWI=">https://Github 用户名.github</span>,io” 即可成功</h3>
+
   </div>
 
    <footer>
 
     <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">Edited on</span>
+    <time title="Modified: 2022-03-13 22:00:03" itemprop="dateModified" datetime="2022-03-13T22:00:03+08:00">2022-03-13</time>
+  </span>
 </div>
 
       
@@ -189,7 +210,7 @@ MagiRess Shoka = Hexo</title>
   </li>
   <li class="link">
     <strong>Post link: </strong>
-    <a href="http://example.com/2022/03/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" title="第一篇博客">http://example.com/2022/03/13/第一篇博客/</a>
+    <a href="http://example.com/2022/03/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" title="该博客的诞生">http://example.com/2022/03/13/第一篇博客/</a>
   </li>
   <li class="license">
     <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> unless stating additionally.
@@ -208,7 +229,7 @@ MagiRess Shoka = Hexo</title>
     <div class="item left">
       
 
-  <a href="/2022/03/13/hello-world/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva2.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipevo9j1jj20zk0m8e81.jpg" title="Hello World">
+  <a href="/2022/03/13/hello-world/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipet8c1a2j20zk0m8kct.jpg" title="Hello World">
   <span class="type">Previous Post</span>
   <span class="category"><i class="ic i-flag"></i> </span>
   <h3>Hello World</h3>
@@ -232,6 +253,7 @@ MagiRess Shoka = Hexo</title>
   <div class="panels">
     <div class="inner">
       <div class="contents panel pjax" data-title="Contents">
+          <ol class="toc"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E6%AD%A4%E8%BF%87%E7%A8%8B%E4%B8%BA%E5%9C%A8%E7%94%B5%E8%84%91%E4%B8%AD%E5%AE%89%E8%A3%85%E5%AE%8C%E6%88%90nvm-npm-node-git%E4%BB%A5%E5%8F%8Ahexo%E4%B9%8B%E5%90%8E%E4%BD%BF%E7%94%A8hexo%E5%90%91github%E4%B8%AD%E4%B8%8A%E4%BC%A0%E7%9A%84%E8%BF%87%E7%A8%8B"><span class="toc-number">1.</span> <span class="toc-text"> 此过程为在电脑中安装完成 nvm、npm、node、git 以及 hexo 之后，使用 hexo 向 GitHub 中上传的过程。</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%BB%BA%E7%AB%8Bgithub%E7%94%A8%E6%88%B7"><span class="toc-number"></span> <span class="toc-text"> 1、建立 Github 用户</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%88%9B%E5%BB%BAssh%E5%AF%86%E9%92%A5"><span class="toc-number"></span> <span class="toc-text"> 2、创建 SSH 密钥：</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-%E8%BF%90%E8%A1%8C%E4%BB%A5%E4%B8%8B%E5%91%BD%E4%BB%A4"><span class="toc-number"></span> <span class="toc-text"> 1、运行以下命令：</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#ssh-keygen-t-rsa-c-%E5%BB%BA%E7%AB%8Bgithub%E8%B4%A6%E6%88%B7%E7%9A%84-%E9%82%AE%E7%AE%B1-%E4%B8%80%E7%9B%B4%E5%9B%9E%E8%BD%A6"><span class="toc-number">1.</span> <span class="toc-text"> ssh-keygen -t rsa -C “建立 GitHub 账户的 邮箱” &#x2F;&#x2F; 一直回车</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-%E5%9C%A8%E7%9B%B8%E5%BA%94%E7%9A%84%E6%96%87%E4%BB%B6%E6%9F%A5%E6%89%BE%E7%94%9F%E6%88%90%E7%9A%84%E5%AF%86%E9%92%A5%E5%B9%B6%E5%85%A8%E9%83%A8%E5%A4%8D%E5%88%B6"><span class="toc-number"></span> <span class="toc-text"> 2、在相应的文件查找生成的密钥，并全部复制</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E4%B8%80%E8%88%AC%E4%B8%BAcuserssshid_rsapub"><span class="toc-number">1.</span> <span class="toc-text"> &#x2F;&#x2F; 一般为 C:\Users.ssh\id_rsa.pub</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-%E5%9C%A8github%E4%B8%AA%E4%BA%BA%E9%A1%B5%E9%9D%A2%E7%82%B9%E5%87%BB%E5%A4%B4%E5%83%8F%E9%80%89%E6%8B%A9setting%E4%B8%AD%E7%9A%84ssh-and-gpg-keys%E7%84%B6%E5%90%8E%E7%82%B9%E5%87%BB-new-ssh-key%E5%B9%B6%E7%B2%98%E8%B4%B4%E4%B8%8A%E4%B8%80%E6%AD%A5%E7%9A%84key"><span class="toc-number"></span> <span class="toc-text"> 3、在 GitHub 个人页面点击头像，选择 setting 中的 SSH and 				GPG keys，然后点击 New SSH key，并粘贴上一步的				key</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-%E9%AA%8C%E8%AF%81%E6%98%AF%E5%90%A6%E5%BB%BA%E7%AB%8B%E8%BF%9E%E6%8E%A5"><span class="toc-number"></span> <span class="toc-text"> 4、验证是否建立连接</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E8%BF%90%E8%A1%8C%E5%91%BD%E4%BB%A4"><span class="toc-number">1.</span> <span class="toc-text"> 运行命令：</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#ssh-t-gitgithubcom"><span class="toc-number">2.</span> <span class="toc-text"> ssh -T git@github.com</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%BB%BA%E7%AB%8Bpages-%E4%BB%93%E5%BA%93%E4%BB%93%E5%BA%93%E5%90%8D%E4%B8%BAgithub%E7%94%A8%E6%88%B7%E5%90%8Dgithubio"><span class="toc-number"></span> <span class="toc-text"> 3、建立 Pages 仓库，仓库名为 Github 用户名.github.io</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E6%9C%AC%E5%9C%B0%E5%9C%A8hexo%E4%B8%AD%E5%BB%BA%E7%AB%8B%E6%96%B0%E7%9A%84md%E6%96%87%E4%BB%B6%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%BC%96%E8%BE%91%E8%BF%90%E8%A1%8Chexo-g%E5%92%8Chexo-s%E5%9C%A8%E6%9C%AC%E5%9C%B0%E8%AE%BF%E9%97%AE%E7%9B%B8%E5%BA%94%E7%AB%AF%E5%8F%A3%E6%88%90%E5%8A%9F%E6%98%BE%E7%A4%BA%E7%BD%91%E9%A1%B5%E5%90%8E%E5%8D%B3%E5%8F%AF%E8%BF%9B%E8%A1%8C%E4%B8%8B%E4%B8%80%E6%AD%A5"><span class="toc-number"></span> <span class="toc-text"> 4、本地在 hexo 中建立新的 md 文件并进行编辑，运行 hexo g 和		hexo s 在本地访问相应端口成功显示网页后即可进行下一		步</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E5%B0%86hexo%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8A%E8%BF%90%E8%A1%8Chexo-d%E5%91%BD%E4%BB%A4%E7%84%B6%E5%90%8E%E9%80%9A%E8%BF%87%E6%B5%8F%E8%A7%88%E5%99%A8%E6%89%93%E5%BC%80-httpsgithub%E7%94%A8%E6%88%B7%E5%90%8Dgithubio%E5%8D%B3%E5%8F%AF%E6%88%90%E5%8A%9F"><span class="toc-number"></span> <span class="toc-text"> 5、将 hexo 部署到 Github 上，运行 hexo d 命令，然后通过浏览		器打开 “https:&#x2F;&#x2F;Github 用户名.github,io” 即可成功</span></a>
       </div>
       <div class="related panel pjax" data-title="Related">
       </div>
@@ -298,7 +320,7 @@ MagiRess Shoka = Hexo</title>
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2022/03/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" title="第一篇博客">第一篇博客</a></span>
+    <span><a href="/2022/03/13/hello-world/" title="Hello World">Hello World</a></span>
   </li>
 
       
@@ -307,7 +329,7 @@ MagiRess Shoka = Hexo</title>
 <div class="breadcrumb">
 </div>
 
-    <span><a href="/2022/03/13/hello-world/" title="Hello World">Hello World</a></span>
+    <span><a href="/2022/03/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" title="该博客的诞生">该博客的诞生</a></span>
   </li>
 
   </ul>
