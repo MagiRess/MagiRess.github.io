@@ -1,0 +1,487 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#FFF">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+<link rel="alternate" type="application/rss+xml" title="Hexo" href="http://example.com/rss.xml" />
+<link rel="alternate" type="application/atom+xml" title="Hexo" href="http://example.com/atom.xml" />
+<link rel="alternate" type="application/json" title="Hexo" href="http://example.com/feed.json" />
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Mulish:300,300italic,400,400italic,700,700italic%7CFredericka%20the%20Great:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20JP:300,300italic,400,400italic,700,700italic%7CNoto%20Serif%20SC:300,300italic,400,400italic,700,700italic%7CInconsolata:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+
+<link rel="stylesheet" href="/css/app.css?v=0.2.5">
+
+  
+  <meta name="keywords" content="mysql" />
+
+
+<link rel="canonical" href="http://example.com/2022/03/20/mysql/">
+
+
+
+  <title>
+mysql |
+MagiRess Shoka = Hexo</title>
+<meta name="generator" content="Hexo 5.4.1"></head>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div id="loading">
+    <div class="cat">
+      <div class="body"></div>
+      <div class="head">
+        <div class="face"></div>
+      </div>
+      <div class="foot">
+        <div class="tummy-end"></div>
+        <div class="bottom"></div>
+        <div class="legs left"></div>
+        <div class="legs right"></div>
+      </div>
+      <div class="paw">
+        <div class="hands left"></div>
+        <div class="hands right"></div>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <header id="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="inner">
+        <div id="brand">
+          <div class="pjax">
+          
+  <h1 itemprop="name headline">mysql
+  </h1>
+  
+<div class="meta">
+  <span class="item" title="Created: 2022-03-20 14:51:04">
+    <span class="icon">
+      <i class="ic i-calendar"></i>
+    </span>
+    <span class="text">Posted on</span>
+    <time itemprop="dateCreated datePublished" datetime="2022-03-20T14:51:04+08:00">2022-03-20</time>
+  </span>
+</div>
+
+
+          </div>
+        </div>
+        <nav id="nav">
+  <div class="inner">
+    <div class="toggle">
+      <div class="lines" aria-label="Toggle navigation bar">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </div>
+    <ul class="menu">
+      <li class="item title"><a href="/" rel="start">MagiRess Shoka</a></li>
+    </ul>
+    <ul class="right">
+      <li class="item theme">
+        <i class="ic i-sun"></i>
+      </li>
+      <li class="item search">
+        <i class="ic i-search"></i>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+      </div>
+      <div id="imgs" class="pjax">
+        <ul>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicli9lfebj20zk0m84qp.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicitht3xtj20zk0m8k5v.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gicm07ih54j20zk0m84qp.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giph4wqtg4j20zk0m8x6p.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1gipey84bjtj20zk0m8hdt.jpg"></li>
+          <li class="item" data-background-image="https://tva1.sinaimg.cn/large/6833939bly1giclhnx9glj20zk0m8npd.jpg"></li>
+        </ul>
+      </div>
+    </header>
+    <div id="waves">
+      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" />
+          <use xlink:href="#gentle-wave" x="48" y="3" />
+          <use xlink:href="#gentle-wave" x="48" y="5" />
+          <use xlink:href="#gentle-wave" x="48" y="7" />
+        </g>
+      </svg>
+    </div>
+    <main>
+      <div class="inner">
+        <div id="main" class="pjax">
+          
+  <div class="article wrap">
+    
+<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+<i class="ic i-home"></i>
+<span><a href="/">Home</a></span>
+</div>
+
+    <article itemscope itemtype="http://schema.org/Article" class="post block" lang="en">
+  <link itemprop="mainEntityOfPage" href="http://example.com/2022/03/20/mysql/">
+
+  <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="image" content="/images/avatar.jpg">
+    <meta itemprop="name" content="John Doe">
+    <meta itemprop="description" content=", ">
+  </span>
+
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Hexo">
+  </span>
+
+  <div class="body md" itemprop="articleBody">
+    
+
+    <h1 id="mysql"><a class="markdownIt-Anchor" href="#mysql">#</a> MySQL</h1>
+<h2 id="mysql程序的常用命令"><a class="markdownIt-Anchor" href="#mysql程序的常用命令">#</a> mysql 程序的常用命令</h2>
+<p>show datebases：显示所有数据库</p>
+<p>use dbname：选定默认数据库</p>
+<p>show tables：显示默认数据库中所有表</p>
+<p>\c：放弃正在输入的命令</p>
+<p>\h：显示命令清单</p>
+<p>\q：退出 mysql 程序</p>
+<p>\s：查看 mysql 服务器状态信息</p>
+<h2 id="数据类型种类"><a class="markdownIt-Anchor" href="#数据类型种类">#</a> 数据类型种类</h2>
+<h3 id="1-整形"><a class="markdownIt-Anchor" href="#1-整形">#</a> 1、整形</h3>
+<p>可以有十进制或十六进制表示（0x 后接相应的数）</p>
+<h3 id="2-浮点型"><a class="markdownIt-Anchor" href="#2-浮点型">#</a> 2、浮点型</h3>
+<p>有一个数字加一个小数点再接一个数字组成</p>
+<h3 id="3-字符串"><a class="markdownIt-Anchor" href="#3-字符串">#</a> 3、字符串</h3>
+<p>有单引号或双引号括起来的字符或数字，要使用转义字符才能显示特殊符号</p>
+<h3 id="4-时间和日期值"><a class="markdownIt-Anchor" href="#4-时间和日期值">#</a> 4、时间和日期值</h3>
+<p>日期按照	年 - 月 - 日	的顺序</p>
+<h3 id="5-null值"><a class="markdownIt-Anchor" href="#5-null值">#</a> 5、NULL 值</h3>
+<p>无类型的值，表示空</p>
+<h3 id="6-数值列类型"><a class="markdownIt-Anchor" href="#6-数值列类型">#</a> 6、数值列类型</h3>
+<p>TINYINT：非常小的整数</p>
+<p>BIGINT：大整数</p>
+<p>SMALLINT：较小的整数</p>
+<p>FLOAT：单精度浮点数</p>
+<p>MEDIUMINT：中等大小的整数</p>
+<p>DOUBLE：双精度浮点数</p>
+<p>INT：标准整数</p>
+<p>DECIMAL：一个串的浮点数</p>
+<h3 id="7-字符串列类型"><a class="markdownIt-Anchor" href="#7-字符串列类型">#</a> 7、字符串列类型</h3>
+<p>CHAR：定长字符串</p>
+<p>ENUM：枚举列，可赋予某个枚举成员</p>
+<p>VARCAHR：可变长字符串</p>
+<p>SET：集合列，可赋予多个集合成员</p>
+<p>BLOB：存储图像文件</p>
+<p>TEXT：小文本串</p>
+<h2 id="常用sql语句"><a class="markdownIt-Anchor" href="#常用sql语句">#</a> 常用 SQL 语句</h2>
+<h4 id="创建数据库操作"><a class="markdownIt-Anchor" href="#创建数据库操作">#</a> 创建数据库操作</h4>
+<p>create datebase 数据库名</p>
+<h3 id="建立表操作"><a class="markdownIt-Anchor" href="#建立表操作">#</a> 建立表操作</h3>
+<p>create table 表名 {</p>
+<p>列名 列类型 [&lt;完整性约束&gt;]</p>
+<p>…</p>
+<p>}</p>
+<h3 id="显示表结构"><a class="markdownIt-Anchor" href="#显示表结构">#</a> 显示表结构</h3>
+<p>describe 表名	/	desc 表名</p>
+<h3 id="删除表"><a class="markdownIt-Anchor" href="#删除表">#</a> 删除表</h3>
+<p>drop table [if exists] tab_name,[table_name]…</p>
+<h3 id="更改表结构"><a class="markdownIt-Anchor" href="#更改表结构">#</a> 更改表结构</h3>
+<p>alter table 表名 action</p>
+<p>action 可以是以下语句</p>
+<p>add 列名 建表语句 [first | after 列名]：添加一列</p>
+<p>add primary key (列名)：添加主键，已存在主键报错</p>
+<p>modify 列名 &lt;建表语句&gt; [first | after 列名]: 更改类型和列名称</p>
+<p>drop 列名：删除以一列</p>
+<p>rename as 新表名：更改表名</p>
+<h3 id="插入记录操作"><a class="markdownIt-Anchor" href="#插入记录操作">#</a> 插入记录操作</h3>
+<p>INSRT [INTO] &lt; 表名 &gt; [列名] VALUES &lt; 值列表 &gt;</p>
+<h3 id="更改数据行"><a class="markdownIt-Anchor" href="#更改数据行">#</a> 更改数据行</h3>
+<p>UPDATE &lt;表名&gt; SET &lt; 列名 = 更新值 &gt; [WHERE &lt; 更新条件 &gt;]</p>
+<h3 id="删除记录"><a class="markdownIt-Anchor" href="#删除记录">#</a> 删除记录</h3>
+<p>DELETE FROM &lt;表名&gt; [WHERE &lt; 删除条件 &gt;]</p>
+<h3 id="查询操作"><a class="markdownIt-Anchor" href="#查询操作">#</a> 查询操作</h3>
+<p>SELECT &lt;列名&gt; FROM &lt; 表名 &gt; [WHERE &lt; 查询条件表达式 &gt;] [ORDER BY &lt; 排序的列名 &gt;[ASC 或 DESC]]</p>
+<h2 id="php操作mysql"><a class="markdownIt-Anchor" href="#php操作mysql">#</a> PHP 操作 mysql</h2>
+<h3 id="php访问mysql数据库流程"><a class="markdownIt-Anchor" href="#php访问mysql数据库流程">#</a> php 访问 mysql 数据库流程</h3>
+<h4 id="连接mysql服务器"><a class="markdownIt-Anchor" href="#连接mysql服务器">#</a> 连接 mysql 服务器</h4>
+<p>使用 mysql_connect（）与 MySQL 服务器建立连接</p>
+<h4 id="选择mysql数据库"><a class="markdownIt-Anchor" href="#选择mysql数据库">#</a> 选择 mysql 数据库</h4>
+<p>使用 mysql_select_db（）函数选择 MySQL 数据库服务器上的数据库，并与数据库建立连接</p>
+<h4 id="执行sql语句"><a class="markdownIt-Anchor" href="#执行sql语句">#</a> 执行 sql 语句</h4>
+<p>使用 mysql_query（）函数执行 SQL 语句</p>
+<h4 id="关闭结果集"><a class="markdownIt-Anchor" href="#关闭结果集">#</a> 关闭结果集</h4>
+<p>mysql_free_result ($result) 关闭结果集</p>
+<h4 id="关闭mysql服务器"><a class="markdownIt-Anchor" href="#关闭mysql服务器">#</a> 关闭 mysql 服务器</h4>
+<p>mysql_close（）函数关闭数据库连接</p>
+
+      <div class="tags">
+          <a href="/tags/mysql/" rel="tag"><i class="ic i-tag"></i> mysql</a>
+      </div>
+  </div>
+
+   <footer>
+
+    <div class="meta">
+  <span class="item">
+    <span class="icon">
+      <i class="ic i-calendar-check"></i>
+    </span>
+    <span class="text">Edited on</span>
+    <time title="Modified: 2022-03-20 16:09:43" itemprop="dateModified" datetime="2022-03-20T16:09:43+08:00">2022-03-20</time>
+  </span>
+</div>
+
+      
+<div class="reward">
+  <button><i class="ic i-heartbeat"></i> Donate</button>
+  <p>Give me a cup of [coffee]~(￣▽￣)~*</p>
+  <div id="qr">
+      
+      <div>
+        <img data-src="/images/wechatpay.png" alt="John Doe WeChat Pay">
+        <p>WeChat Pay</p>
+      </div>
+      
+      <div>
+        <img data-src="/images/alipay.png" alt="John Doe Alipay">
+        <p>Alipay</p>
+      </div>
+      
+      <div>
+        <img data-src="/images/paypal.png" alt="John Doe PayPal">
+        <p>PayPal</p>
+      </div>
+  </div>
+</div>
+
+      
+
+<div id="copyright">
+<ul>
+  <li class="author">
+    <strong>Post author:  </strong>John Doe <i class="ic i-at"><em>@</em></i>Hexo
+  </li>
+  <li class="link">
+    <strong>Post link: </strong>
+    <a href="http://example.com/2022/03/20/mysql/" title="mysql">http://example.com/2022/03/20/mysql/</a>
+  </li>
+  <li class="license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <span class="exturl" data-url="aHR0cHM6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL2xpY2Vuc2VzL2J5LW5jLXNhLzQuMC9kZWVkLnpo"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</span> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+  </footer>
+
+</article>
+
+  </div>
+  
+
+<div class="post-nav">
+    <div class="item left">
+      
+
+  <a href="/2022/03/20/PHP/" itemprop="url" rel="prev" data-background-image="https:&#x2F;&#x2F;tva1.sinaimg.cn&#x2F;mw690&#x2F;6833939bly1gipew28b65j20zk0m8hdt.jpg" title="PHP">
+  <span class="type">Previous Post</span>
+  <span class="category"><i class="ic i-flag"></i> </span>
+  <h3>PHP</h3>
+  </a>
+
+    </div>
+    <div class="item right">
+    </div>
+</div>
+
+  
+  <div class="wrap" id="comments"></div>
+
+
+        </div>
+        <div id="sidebar">
+          
+
+<div class="inner">
+
+  <div class="panels">
+    <div class="inner">
+      <div class="contents panel pjax" data-title="Contents">
+          <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#mysql"><span class="toc-number">1.</span> <span class="toc-text"> MySQL</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#mysql%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="toc-number">1.1.</span> <span class="toc-text"> mysql 程序的常用命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E7%A7%8D%E7%B1%BB"><span class="toc-number">1.2.</span> <span class="toc-text"> 数据类型种类</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E6%95%B4%E5%BD%A2"><span class="toc-number">1.2.1.</span> <span class="toc-text"> 1、整形</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E6%B5%AE%E7%82%B9%E5%9E%8B"><span class="toc-number">1.2.2.</span> <span class="toc-text"> 2、浮点型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%AD%97%E7%AC%A6%E4%B8%B2"><span class="toc-number">1.2.3.</span> <span class="toc-text"> 3、字符串</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E6%97%B6%E9%97%B4%E5%92%8C%E6%97%A5%E6%9C%9F%E5%80%BC"><span class="toc-number">1.2.4.</span> <span class="toc-text"> 4、时间和日期值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-null%E5%80%BC"><span class="toc-number">1.2.5.</span> <span class="toc-text"> 5、NULL 值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E6%95%B0%E5%80%BC%E5%88%97%E7%B1%BB%E5%9E%8B"><span class="toc-number">1.2.6.</span> <span class="toc-text"> 6、数值列类型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%88%97%E7%B1%BB%E5%9E%8B"><span class="toc-number">1.2.7.</span> <span class="toc-text"> 7、字符串列类型</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8sql%E8%AF%AD%E5%8F%A5"><span class="toc-number">1.3.</span> <span class="toc-text"> 常用 SQL 语句</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E6%95%B0%E6%8D%AE%E5%BA%93%E6%93%8D%E4%BD%9C"><span class="toc-number">1.3.0.1.</span> <span class="toc-text"> 创建数据库操作</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BB%BA%E7%AB%8B%E8%A1%A8%E6%93%8D%E4%BD%9C"><span class="toc-number">1.3.1.</span> <span class="toc-text"> 建立表操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%98%BE%E7%A4%BA%E8%A1%A8%E7%BB%93%E6%9E%84"><span class="toc-number">1.3.2.</span> <span class="toc-text"> 显示表结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E8%A1%A8"><span class="toc-number">1.3.3.</span> <span class="toc-text"> 删除表</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9B%B4%E6%94%B9%E8%A1%A8%E7%BB%93%E6%9E%84"><span class="toc-number">1.3.4.</span> <span class="toc-text"> 更改表结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8F%92%E5%85%A5%E8%AE%B0%E5%BD%95%E6%93%8D%E4%BD%9C"><span class="toc-number">1.3.5.</span> <span class="toc-text"> 插入记录操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9B%B4%E6%94%B9%E6%95%B0%E6%8D%AE%E8%A1%8C"><span class="toc-number">1.3.6.</span> <span class="toc-text"> 更改数据行</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%A0%E9%99%A4%E8%AE%B0%E5%BD%95"><span class="toc-number">1.3.7.</span> <span class="toc-text"> 删除记录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%9F%A5%E8%AF%A2%E6%93%8D%E4%BD%9C"><span class="toc-number">1.3.8.</span> <span class="toc-text"> 查询操作</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#php%E6%93%8D%E4%BD%9Cmysql"><span class="toc-number">1.4.</span> <span class="toc-text"> PHP 操作 mysql</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#php%E8%AE%BF%E9%97%AEmysql%E6%95%B0%E6%8D%AE%E5%BA%93%E6%B5%81%E7%A8%8B"><span class="toc-number">1.4.1.</span> <span class="toc-text"> php 访问 mysql 数据库流程</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%BF%9E%E6%8E%A5mysql%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="toc-number">1.4.1.1.</span> <span class="toc-text"> 连接 mysql 服务器</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%80%89%E6%8B%A9mysql%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">1.4.1.2.</span> <span class="toc-text"> 选择 mysql 数据库</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%89%A7%E8%A1%8Csql%E8%AF%AD%E5%8F%A5"><span class="toc-number">1.4.1.3.</span> <span class="toc-text"> 执行 sql 语句</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%B3%E9%97%AD%E7%BB%93%E6%9E%9C%E9%9B%86"><span class="toc-number">1.4.1.4.</span> <span class="toc-text"> 关闭结果集</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%B3%E9%97%ADmysql%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="toc-number">1.4.1.5.</span> <span class="toc-text"> 关闭 mysql 服务器</span></a></li></ol></li></ol></li></ol></li></ol>
+      </div>
+      <div class="related panel pjax" data-title="Related">
+      </div>
+      <div class="overview panel" data-title="Overview">
+        <div class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="image" itemprop="image" alt="John Doe"
+      data-src="/images/avatar.jpg">
+  <p class="name" itemprop="name">John Doe</p>
+  <div class="description" itemprop="description"></div>
+</div>
+
+<nav class="state">
+    <div class="item posts">
+      <a href="/archives/">
+        <span class="count">4</span>
+        <span class="name">posts</span>
+      </a>
+    </div>
+    <div class="item tags">
+      <a href="/tags/">
+        <span class="count">2</span>
+        <span class="name">tags</span>
+      </a>
+    </div>
+</nav>
+
+<div class="social">
+</div>
+
+<ul class="menu">
+  
+    
+  <li class="item">
+    <a href="/" rel="section"><i class="ic i-home"></i>Home</a>
+  </li>
+
+
+</ul>
+
+      </div>
+    </div>
+  </div>
+
+  <ul id="quick">
+    <li class="prev pjax">
+    </li>
+    <li class="up"><i class="ic i-arrow-up"></i></li>
+    <li class="down"><i class="ic i-arrow-down"></i></li>
+    <li class="next pjax">
+    </li>
+    <li class="percent"></li>
+  </ul>
+</div>
+
+
+        </div>
+        <div class="dimmer"></div>
+      </div>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <div class="widgets">
+          
+<div class="rpost pjax">
+  <h2>Random Posts</h2>
+  <ul>
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/03/13/hello-world/" title="Hello World">Hello World</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/03/20/mysql/" title="mysql">mysql</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/03/13/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" title="通过Hexo上传GitHub">通过Hexo上传GitHub</a></span>
+  </li>
+
+      
+  <li class="item">
+    
+<div class="breadcrumb">
+</div>
+
+    <span><a href="/2022/03/20/PHP/" title="PHP">PHP</a></span>
+  </li>
+
+  </ul>
+</div>
+<div>
+  <h2>Recent Comments</h2>
+  <ul class="leancloud-recent-comment"></ul>
+</div>
+
+        </div>
+        <div class="status">
+  <div class="copyright">
+    
+    &copy; 2010 – 
+    <span itemprop="copyrightYear">2022</span>
+    <span class="with-love">
+      <i class="ic i-sakura rotate"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">John Doe @ MagiRess Shoka</span>
+  </div>
+  <div class="powered-by">
+    Powered by <span class="exturl" data-url="aHR0cHM6Ly9oZXhvLmlv">Hexo</span> & Theme.<span class="exturl" data-url="aHR0cHM6Ly9naXRodWIuY29tL2FtZWhpbWUvaGV4by10aGVtZS1zaG9rYQ==">Shoka</span>
+  </div>
+</div>
+
+      </div>
+    </footer>
+  </div>
+<script data-config type="text/javascript">
+  var LOCAL = {
+    path: '2022/03/20/mysql/',
+    favicon: {
+      show: "（●´3｀●）Goooood",
+      hide: "(´Д｀)Booooom"
+    },
+    search : {
+      placeholder: "Search for Posts",
+      empty: "We didn't find any results for the search: ${query}",
+      stats: "${hits} results found in ${time} ms"
+    },
+    valine: true,fancybox: true,
+    copyright: 'Copied to clipboard successfully! <br> All articles in this blog are licensed under <i class="ic i-creative-commons"></i>BY-NC-SA.',
+    ignores : [
+      function(uri) {
+        return uri.includes('#');
+      },
+      function(uri) {
+        return new RegExp(LOCAL.path+"$").test(uri);
+      }
+    ]
+  };
+</script>
+
+<script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+
+<script src="//cdn.jsdelivr.net/combine/npm/pace-js@1.0.2/pace.min.js,npm/pjax@0.2.8/pjax.min.js,npm/whatwg-fetch@3.4.0/dist/fetch.umd.min.js,npm/animejs@3.2.0/lib/anime.min.js,npm/algoliasearch@4/dist/algoliasearch-lite.umd.js,npm/instantsearch.js@4/dist/instantsearch.production.min.js,npm/lozad@1/dist/lozad.min.js,npm/quicklink@2/dist/quicklink.umd.js"></script>
+
+<script src="/js/app.js?v=0.2.5"></script>
+
+
+
+
+</body>
+</html>
